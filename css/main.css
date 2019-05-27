@@ -103,3 +103,9 @@ main {
     color: #7d97ad;
     font-size: 3em;
 }
+
+@media (max-width: 320px) {
+  .otherProjects {
+    flex-direction: column;
+  }
+}
